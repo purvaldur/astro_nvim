@@ -17,6 +17,7 @@ return {
       dashboard.button("o", "  Open file", "<Cmd>Telescope find_files<cr>"),
       dashboard.button("f", "󰈞  File content search", "<Cmd>Telescope live_grep<cr>"),
       dashboard.button("n", "  New file", "<Cmd>enew<CR>"),
+      dashboard.button("q", "⏻  Quit NVIM", "<Cmd>qa<CR>"),
     }
   end,
 }
