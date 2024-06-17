@@ -11,6 +11,9 @@ return {
       "    \\  / ____ \\| |____| |__| | |__| | | \\ \\ ",
       "     \\/_/    \\_\\______|_____/ \\____/|_|  \\_\\",
     }
+
+    -- TODO add working dir string between header and buttons
+
     dashboard.section.buttons.val = {
       dashboard.button("LDR S l", "󰦛  Restore last session"),
       dashboard.button("r", "  Recent files", "<Cmd>Telescope oldfiles<cr>"),
