@@ -18,4 +18,8 @@ end
 require "lazy_setup"
 require "polish"
 
+-- CUSTOM CONFIGURATIONS
 vim.opt.relativenumber = false
+-- vim.opt.shell = "/usr/bin/fish"
+-- DISABLE NATIVE VIM MAPPINGS THAT I DO NOT USE
+vim.api.nvim_set_keymap("n", "q", "<Nop>", { noremap = true, silent = true })
